@@ -1,0 +1,31 @@
+.container{
+max-width: 900px;
+margin: 0 auto;
+padding-inline: 1rem;}
+
+.sep_h3 {
+    font-size: 38px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.image_sep img{
+width:100%}
+
+.main_new{
+line-height: 1.5;
+font-size: 1.2rem;
+margin-top: 1rem;
+padding-bottom: 3rem;
+}
+
+.new_flex{
+display: flex;
+justify-content: space-between;
+font-size: .9rem;
+font-style: italic;
+color: #525252;}
+
+.david{
+border-bottom: .5px solid #525252}
+

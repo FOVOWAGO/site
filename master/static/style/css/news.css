@@ -1,0 +1,190 @@
+html{
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+    background-color: #e8e8e8;
+}
+
+header{
+  /*  max-width: 800px;
+    margin: 0 auto;*/
+        background-color: #F2F2F2;
+        padding: 20px 0;
+}
+
+.imagescopp img{
+height: 70px}
+
+.buttons_top button{
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #3052D8;
+    border-color: #3052D8;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+.buttons_top a{
+    text-decoration: none;
+}
+
+.llist a:hover{
+    color: #3052D8;
+}
+
+.buttons_top>*{
+    word-spacing: 10px;
+}
+
+.llist{
+    text-align: center;
+    margin: 1.5rem 0px;
+}
+
+
+.llist a{
+    transition: .2s;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.categ{
+   margin-left: 20px;
+}
+
+.imagescopp{
+    text-align: center;
+}
+
+.buttons_top{
+    text-align: center;
+}
+
+.the_novost{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: #F2F2F2;
+    padding: 20px 20px 50px 20px;
+    border-radius: 20px;
+}
+
+.niztema{
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    font-size: 20px;
+}
+
+.novost_img img{
+    width: 100%;
+    max-height: 500px;
+}
+
+.novosti{
+    padding-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color:  #1587c2;
+    color: white;
+    padding: 50px 0px 100px 0px;
+}
+
+.join_imgs svg{
+    width: 35px;
+    height: 35px;
+}
+
+.foot_flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.foot_step{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    max-width: 300px;
+}
+
+
+.foot_logo_disc{
+    ont-size: 1.2em;
+    margin-bottom: 20px;
+}
+.foot_step span{
+    font-size: 1.2em;
+}
+
+.foot_logo_img img{
+    width: 100px;
+}
+
+
+.foot_step_2{
+    text-align: center;
+}
+
+.foot_step_2 button{
+    font-size: 15px;
+    color: #1587c2;
+    font-weight: bold;
+    padding: 16px 50px;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+.join_text{
+    font-size: 17px;
+    margin-bottom: 1em;
+}
+
+.join_imgs{
+    letter-spacing: 1.2em;
+}
+
+.join_imgs a{
+    text-decoration: none;
+}
+
+.foot_step_3{
+    font-size: 1.6em;
+    line-height: 2;
+}
+
+.foot_step_3 a{
+    text-decoration: underline;
+    color: white;
+}
+
+.foot_step_3,.foot_step_2{
+    margin-top: 20px;
+}

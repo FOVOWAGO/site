@@ -1,0 +1,34 @@
+@media(max-width:1050px){
+    .foot_flex{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .foot_step_3{
+        font-size: 20px;
+    }
+
+    .foot_step_2 button{
+        margin-bottom: 1rem;
+    }
+
+    footer{
+        padding: 30px;
+    }
+
+    .novost_text{
+        font-size: .7rem;
+    }
+
+    .niztema{
+        font-size: 1rem;
+    }
+}
+
+
+
+@media(max-width:500px){
+    .niztema{
+        font-size: 5rem;
+    }
+}

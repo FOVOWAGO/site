@@ -1,0 +1,319 @@
+body{
+margin:0;
+min-width: 421px;}
+
+
+h3{
+margin: 20px 0px}
+
+header {
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+}
+
+.imagescopp img{
+	height: 70px;
+}
+
+button:hover{
+cursor: pointer;}
+
+nav {
+    display: flex;
+    /* display: none; */
+    justify-content: space-around;
+    align-items: center;
+    background-attachment: fixed;
+    padding: 15px 0px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.llist {
+    text-align: center;
+    line-height: 1.5;
+    margin-inline: 10px;
+    font-family: sans-serif;
+}
+
+.llist a {
+    font-weight: bold;
+    letter-spacing: .5px;
+    padding: 5px 0px;
+    font-size: 17px;
+
+}
+
+a{color: inherit;
+    text-decoration: none;
+}
+
+.categ {
+    margin-inline: 40px;
+}
+
+.buttons_top {
+    text-align: center;
+}
+
+.buttons_top button {
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #1587c2;
+    border-color: #1587c2;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .3s;}
+
+
+.text_telka button {
+    color: white;
+    background-color: #1587c2;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 18px 40px;
+    border-radius: 8px;
+    margin-top: 2rem;
+
+}
+
+.text_telka ul{
+padding-left: 1.3rem}
+
+
+
+.telka{
+    border-radius: 22px;
+    background-color: #F2F2F2;
+    max-width: 97%;
+    margin-inline: auto;
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content:space-around;}
+
+.image_telka{
+    text-align: center;
+    flex-basis:40%;
+    align-self: flex-end;
+    font-size: 0;
+}
+
+.image_telka img {
+    width: 100%;
+    /* min-height: 608px; */
+    max-height: 580px;
+    max-width: 500px;
+}
+
+.text_telka{
+flex-basis: 50%}
+
+
+.first_title{
+font-size: 3rem}
+
+.second_title{
+font-size: 1.5rem;
+font-weight: normal;
+font-style: italic;
+margin-bottom: 2rem;
+}
+
+.discr{
+list-style-type: round;}
+
+
+.whois_course{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin: 100px auto 100px auto;
+    max-width: 1200px;
+  }
+
+ .whois_discript {
+    flex-basis: 49%;
+    font-size: 1.3rem;
+    /* font-weight: bold; */
+}
+
+.whois_image {
+    flex-basis: 48%;
+}
+
+.whois_image img{
+    width: 100%;
+    border-radius: 30px;}
+
+.studygoesh2 {
+    font-size: 30px;
+    letter-spacing: .5px;
+    margin-bottom: 40px;
+}
+
+
+
+.howstudygoes{
+    max-width: 1200px;
+    margin: 0 auto;}
+
+ .studyflex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.study_image{
+flex-basis: 49%;}
+
+.study_image img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.study_blocks {
+    flex-basis: 49%;
+}
+
+.study_text {
+    background-color: #F2F2F2;
+    border: 1px solid #bdbdbd;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+    /* min-height: calc(25% - 14px); */
+}
+
+.study_text h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+
+.reasons_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 2em;
+    max-width: 1200px;
+    margin: 100px auto 100px auto;
+    /* row-gap: 3rem; */
+}
+
+.cards1 {
+    background-color: #F2F2F2;
+    flex-basis: 20%;
+    padding: 30px 20px;
+    border-radius: 15px;
+    font-size: 1.09rem;
+    /* min-height: 283px; */
+    position: relative;
+}
+
+.cards1_text h3{
+    margin: 0;
+    letter-spacing: .5px;
+    font-size: 1.2rem;}
+
+.skills{
+    padding-left: 20px;
+    padding-right: 10px;
+    max-width: 1200px;
+    margin: 100px auto 100px auto;}
+
+.skills h2{
+    margin-bottom: 40px}
+
+.paper {
+    background-color: /*var(--main-marqcolor)*/ /*#3052d8*/ #F2F2F2;
+    /* color: white; */
+    padding: 30px 0px;
+}
+
+.paper_flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.paper_text {
+    flex-basis: 52%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .4px;
+}
+
+.paper_image img {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.paper_image {
+    flex-basis: 400px;
+}
+
+
+
+@media(max-width:1000px){
+.text_telka button{
+    margin-top: 10px;}
+
+.text_telka {
+    padding-bottom: 20px;
+    padding-inline: 20px;
+}
+
+.first_title{
+font-size: 35px;
+margin-bottom: 10px;
+text-align: center}
+
+.second_title{
+font-size: 20px;
+margin-top: 10px}
+
+.telka{
+flex-direction: column;
+padding-top: 20px;
+}
+.image_telka{
+ display: none}
+
+ .whois_course,.studyflex,.reasons_flex{
+ flex-direction: column;
+ padding-inline: 10px;}
+
+ .whois_course,.reasons_flex,.skills{
+ margin-top: 50px;
+ margin-bottom: 50px}
+
+ .paper_flex{
+justify-content: center}
+
+.paper_text,.paper_image{
+flex-basis: unset;}
+
+.paper_flex{
+margin-inline: 10px}
+
+.buttons_top button{
+margin-bottom: 10px}
+
+}
+
+
+

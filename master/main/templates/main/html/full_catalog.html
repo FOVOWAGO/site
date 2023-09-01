@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Курс</title>
+    <link rel="shortcut icon" href="/media/photos/images/gerb_3.png">
+    <link rel="stylesheet" href=" {% static 'style/css/catalogue_full.css' %} ">
+	<link rel="stylesheet" href=" {% static 'style/css/catalogue_full_media.css' %} ">
+</head>
+<body>
+
+    <header>
+			<nav>
+				<div class="imagescopp">
+					<a href="https://copp15.ru/">
+						<img src="/media/photos/images/logo.png">
+					</a>
+				</div>
+
+			<div class="llist">
+				<a href="http://127.0.0.1:8000/#about_prj">О федеральном проекте</a>
+				<a href="http://127.0.0.1:8000/#fighter" class="categ">Категории участников</a>
+				<a href="/news">Новости</a>
+			</div>
+
+			<div class="buttons_top">
+				<a href="catalog/">
+					<button>
+						Каталог программ
+					</button>
+				</a>
+
+
+				<a href="http://127.0.0.1:8000/#formmain">
+					<button>
+						Подать заявку
+					</button>
+				</a>
+
+			</div>
+			</nav>
+
+		</header>
+
+    <div class="container">
+
+
+        <div class="telka">
+            <div class="text_telka">
+                <h3 class="h3_the first_title">{{ catalog.name }}</h3>
+                <h3 class="h3_the second_title">{{ catalog.announce }}</h3>
+
+                <ul>
+                    <li>
+                          <h3 class="h3_the discr">{{ catalog.discr1 }}</h3>
+                    </li>
+
+                    <li>
+                        <h3 class="h3_the discr">{{ catalog.discr2 }}</h3>
+                    </li>
+
+                    <li>
+                        <h3 class="h3_the discr">{{ catalog.discr3 }}</h3>
+                    </li>
+
+                    <li>
+                        <h3 class="h3_the discr" >{{ catalog.discr4 }}</h3>
+                    </li>
+
+                    <li>
+                        <h3 class="h3_the discr">{{ catalog.discr5 }}</h3>
+                    </li>
+                </ul>
+
+                <a href="http://127.0.0.1:8000/#formmain"><button>
+					Подать заявку
+				</button></a>
+
+
+
+
+
+            </div>
+
+            <div class="image_telka">
+                <img src="/media/photos/images/boy.png">
+            </div>
+
+        </div>
+
+
+        <div class="whois_course">
+            <div class="whois_discript">
+                <h3 class="h3_the">{{ catalog.osob }}</h3>
+            </div>
+
+            <div class="whois_image">
+                <img src="{{ catalog.image3.url }}">
+            </div>
+        </div>
+
+
+        <div class="howstudygoes">
+            <h2 class="studygoesh2">
+                Условия и режим реализации
+            </h2>
+
+            <div class="studyflex">
+                <div class="study_image">
+                     <img src="{{ catalog.image4.url }}">
+                </div>
+
+                <div class="study_blocks">
+                    <div class="study_text">
+                        <h3 class="h3_the">{{ catalog.ysl }}</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="reasons_flex">
+            <div class="cards1">
+                <div class="cards1_text">
+					<h3 class="h3_the">{{ catalog.obyem }}</h3>
+				</div>
+            </div>
+
+            <div class="cards1">
+                <div class="cards1_text">
+					 <h3 class="h3_the">{{ catalog.format }}</h3>
+				</div>
+            </div>
+
+            <div class="cards1">
+                <div class="cards1_text">
+					<h3 class="h3_the">{{ catalog.zanyatia }}</h3>
+				</div>
+            </div>
+
+            <div class="cards1">
+                <div class="cards1_text">
+					<h3>Несколько тематических модулей</h3>
+				</div>
+            </div>
+        </div>
+
+
+        <div class="skills">
+            <h2>
+                В результате обучения выпускник программы будет способен:
+            </h2>
+
+            <div class="skills_flex">
+                    <div class="skill_unit">
+
+                        <div class="skill_unit_text">
+                            <ul>
+                                <li>
+                                     <h3 class="h3_the">{{ catalog.discr01 }}</h3>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                <div class="skill_unit">
+
+                        <div class="skill_unit_text">
+                            <ul>
+                                <li>
+                                    <h3 class="h3_the">{{ catalog.discr02 }}</h3>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                <div class="skill_unit">
+                        <div class="skill_unit_text">
+                            <ul>
+                                <li>
+                                     <h3 class="h3_the">{{ catalog.discr03 }}</h3>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                <div class="skill_unit">
+                        <div class="skill_unit_text">
+                            <ul>
+                                <li>
+                                     <h3 class="h3_the">{{ catalog.discr04 }}</h3>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                <div class="skill_unit">
+                        <div class="skill_unit_text">
+                            <ul>
+                                <li>
+                                     <h3 class="h3_the">{{ catalog.discr05 }}</h3>
+                                </li>
+                            </ul>
+
+                        </div>
+                </div>
+
+                <div class="skill_unit">
+                        <div class="skill_unit_text">
+                            <ul>
+                                <li>
+                                     <h3 class="h3_the">{{ catalog.discr06 }}</h3>
+                                </li>
+                            </ul>
+
+                        </div>
+                </div>
+
+                <div class="skill_unit">
+                        <div class="skill_unit_text">
+                            <ul>
+                                <li>
+                                     <h3 class="h3_the">{{ catalog.discr07 }}</h3>
+                                </li>
+                            </ul>
+
+                        </div>
+                </div>
+
+                 <div class="skill_unit">
+                        <div class="skill_unit_text">
+                            <ul>
+                                <li>
+                                     <h3 class="h3_the">{{ catalog.discr08 }}</h3>
+                                </li>
+                            </ul>
+
+                        </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="paper">
+			<div class="paper_flex">
+				<div class="paper_text">
+					Участники, успешно завершившие обучение по программе, получают удостоверение о повышении квалификации установленного образца
+				</div>
+
+				<div class="paper_image">
+					<img src="/media/photos/images/diploma/1.png">
+				</div>
+			</div>
+		</div>
+
+
+
+
+    </div>
+</body>
+
+<script>
+
+let catag = document.getElementsByClassName('h3_the');
+let li = document.getElementsByTagName('li');
+
+
+for(let i = 0; i<catag.length; i++){
+ if(catag[i].innerText == 'None'){
+    catag[i].style.display = 'none';
+ }
+}
+
+
+
+
+for(let i = 0; i<li.length; i++){
+
+  if(li[i].innerText == ''){
+ li[i].style.display = 'none'}
+
+ }
+
+
+
+</script>
+</html>
